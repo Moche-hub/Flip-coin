@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>coinflip.</title>
+    <link rel="stylesheet" href="10-flipcoin.css">
+</head>
+<body>
+    <div class="box">
+    <h1 class="head">Flip Coin Game</h1><br>
+    <button onclick="
+        head1('head')
+        ">HEAD</button>
+    <button onclick="
+       head1('tail')
+    ">TAIL</button>
+
+
+     <p class="res1"></p>
+    <p class="res"></p><br><br>
+    <p class="score"></p>
+
+
+
+    <button class="reset"onclick="
+    score.win=0;
+    score.lose=0;
+    localStorage.removeItem('score');
+    document.querySelector('.score').innerHTML=`Win:${score.win} Loose:${score.lose}`;
+    ">Reset score</button>
+    <script src="10-flipcoin.js">
+     
+    </script>
+    </div>
+    
+</body>
+</html>

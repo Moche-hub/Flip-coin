@@ -1,0 +1,61 @@
+body{
+   background-color:rgb(25,25,25);
+   color:white;
+}
+img{
+    height: 120px;;
+    width: 120px;
+    background-color:rgb(25,25,25);
+    border-color: rgb(25,25,25);
+    margin-left:10px;
+    cursor: pointer;
+}
+button{
+    border: none;
+    border-radius:1cm;
+    padding-left:40px;
+    padding-right: 40px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-left: 0.5cm;
+    cursor: pointer;
+}
+button:hover{
+    background-color:rgb(83, 19, 40);
+    color:white;
+}
+.head{
+    color: rgb(209, 83, 83);
+    margin-left: 35px;
+}
+.res1{
+    margin-left: 2cm;
+}
+.res{
+    margin-left:3cm;
+    font-family: Arial;
+    font-weight: bold;
+}
+.score{
+    margin-left: 2cm;
+    font-family: Arial;
+    font-weight: bold;
+    color: cadetblue;
+}
+.reset{
+    margin-left:65px;
+
+}
+.box{
+    width: 11cm;
+    height: 14cm;
+  position:relative;
+  left: 14cm;
+  top: 2cm;
+  border:0.1cm solid white;
+  padding-left: 3cm;
+  padding-top:1cm;
+  border-radius: 1cm;
+  box-shadow: 1px 1px 40px rgb(238, 237, 237);
+
+}
